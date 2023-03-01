@@ -1,7 +1,9 @@
+import Tooltip from "./Tooltip";
+
 function App() {
   return (
     <div className="App">
-      <h1>Tooltip Component</h1>
+      <Tooltip />
     </div>
   );
 }
