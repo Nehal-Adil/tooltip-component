@@ -5,29 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: rgb(2, 0, 36); */
-  /* background: linear-gradient(
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 31%,
     rgba(0, 212, 255, 1) 100%
-  ); */
-  /* color: #ffffff; */
+  );
+  color: #ffffff;
 }
 
-.container {
+.App {
+  text-align: center;
+  margin-top: 20%;
   display: flex;
-  margin: 0 auto;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.btn {
-  margin-top: 2rem;
-  font-size: 1.4rem;
-  padding: 7px;
-  background-color: #ffffff;
-  color: black;
-  box-shadow: 7px 7px 22px 0px rgba(0, 0, 0, 0.75);
-  border-radius: 13px;
-  cursor: pointer;
+.App > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
 }
