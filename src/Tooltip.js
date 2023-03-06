@@ -1,13 +1,14 @@
-function Tooltip() {
-  const handleTooltip = () => {};
+import React from "react";
+
+export default function Tooltip(props) {
+  console.log(props);
 
   return (
     <div className="container">
-      <button className="btn" onClick={handleTooltip}>
-        Hover Over Me
+      <button className="btn" onClick={props.handleClick}>
+        Hover Over Me!
       </button>
+      <h1>{props.title}</h1>
     </div>
   );
 }
-
-export default Tooltip;
