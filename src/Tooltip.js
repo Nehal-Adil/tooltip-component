@@ -7,7 +7,7 @@ const ToolTip = ({ position }) => {
   useEffect(() => {
     //top tooltip
     if (position === "top") {
-      spanRef.current.style.bottom = "120%";
+      spanRef.current.style.bottom = "130%";
       spanRef.current.style.left = "50%";
       spanRef.current.style.marginLeft = "-110px";
     }
